@@ -39,7 +39,7 @@ var output = ASCIItoHex(userInput, false);
 // check the result
 if (output)
     console.log("hexadecimal value for \"" +  userInput + "\"\n" + output);
-    // get input from user
+// get input from user
 userInput = window.prompt("Enter a string to get its hexadecimal value inline");
 // get hex value
 var output = ASCIItoHex(userInput);
